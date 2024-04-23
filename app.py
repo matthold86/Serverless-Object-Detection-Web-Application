@@ -21,7 +21,7 @@ if uploaded_file is not None:
     # Button to upload to S3
     if st.button('Upload to S3'):
         # Prepare the JSON payload with the file name
-        file_name = uploaded_file.name
+        file_name = uploaded_file.name.rsplit('.', 1)[0]
         payload = {'file_name': file_name}
 
         # Make HTTP POST request to your API Gateway to get the presigned URL
