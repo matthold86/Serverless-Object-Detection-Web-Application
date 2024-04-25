@@ -9,10 +9,13 @@ Step Function Architecture:
 ![image](https://github.com/matthold86/Serverless-Object-Detection-Web-Application/assets/114833075/17bb2e4c-f4b8-44ec-a14d-bf1fc28e93f1)
 
 Link to Primary Lambda Functions:
-Image Preprocessing: https://github.com/matthold86/image_preprocessing_lambda
-Model Inference: https://github.com/matthold86/AWS-sagemaker-inference-lambda
-Image Postprocessing: https://github.com/matthold86/image-postprocessing-lambda
 
-**This repository will be cleaned up soon**
+- **Image Preprocessing**: https://github.com/matthold86/image_preprocessing_lambda
+
+- **Model Inference**: https://github.com/matthold86/AWS-sagemaker-inference-lambda
+
+- **Image Postprocessing**: https://github.com/matthold86/image-postprocessing-lambda
+
+*This repository will be cleaned up soon*
 
 
